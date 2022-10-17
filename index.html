@@ -1,191 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CollageWebsite</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/5fe7f6fb91.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5fe7f6fb91.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-
-
-</head>
-
-<body>
+  <body>
     <section class="header">
-        <nav>
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
+      <nav>
+        <a href="index.html"><h1>UIT</h1></a>
 
-            <div class="nav-link" id="navLinks">
-                <i class="fas fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">COURSE</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fas fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
-            <h1>World's Biggest University</h1>
-            <p>Making website is now one of the easiest thing in the world.You just needto learn HTML, CSS,<br>
-                Javascript and you are good to go.</p>
-            <a href="" class="btn">Vidit us to know more</a>
+        <div class="nav-link" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul id="nav">
+            <li><a id="home" href="#">HOME</a></li>
+            <li><a id="about" href="#">ABOUT</a></li>
+            <li id="course"><a href="#">COURSE</a></li>
+            <li><a id="contact" href="#">CONTACT</a></li>
+          </ul>
         </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>University Institute Of Technology, BU</h1>
+        <p>
+          Making website is now one of the easiest thing in the world.You just
+          needto learn HTML, CSS,<br />
+          Javascript and you are good to go.
+        </p>
+        <a href="https://uit.buruniv.ac.in/" class="btn" target="_blank"
+          >Vidit us to know more</a
+        >
+      </div>
     </section>
-
-
-    <!-- ------------JavaScript for the hamburger-------- -->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-
-        function showMenu() {
-            navLinks.style.zIndex = "2";
-        }
-
-        function hideMenu() {
-            navLinks.style.zIndex = "-2";
-        }
-    </script>
-
-
 
     <!-- ---------courses-------------- -->
     <section class="course">
-        <h1>Courses We Offers</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, suscipit.</p>
+      <h1>Courses We Offers</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+        suscipit.
+      </p>
 
-        <div class="row">
-            <div class="course-col">
-                <h3>Diploma</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero sequi fuga laboriosam est sit
-                    accusamus nostrum quis, natus aperiam repudiandae.</p>
-            </div>
-            <div class="course-col">
-                <h3>UG</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero sequi fuga laboriosam est sit
-                    accusamus nostrum quis, natus aperiam repudiandae.</p>
-            </div>
-            <div class="course-col">
-                <h3>PG</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero sequi fuga laboriosam est sit
-                    accusamus nostrum quis, natus aperiam repudiandae.</p>
-            </div>
+      <div class="row">
+        <div class="course-col">
+          <h3>UG</h3>
+          <p>
+            Civil Engineering, Electrical Engineering, Applied Electronics &
+            Instrumentation Engineering
+          </p>
         </div>
+        <div class="course-col">
+          <h3>UG</h3>
+          <p>
+            Electronics & Communication Engineering, Information Technology,
+            Computer Science & Engineering
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>PG</h3>
+          <p>ME-CSE & ME-EIE</p>
+        </div>
+      </div>
     </section>
-
 
     <!-- --------campus------------ -->
     <section class="campus">
-        <h1>Our Global Campus</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ex.</p>
-        <div class="row">
-            <div class="campus-col">
-                <img src="images/london.png" alt="imagenotfound">
-                <div class="layer">
-                    <h3>LONDON</h3>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src="images/newyork.png" alt="imagenotfound">
-                <div class="layer">
-                    <h3>NEWYORK</h3>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src="images/washington.png" alt="imagenotfound">
-                <div class="layer">
-                    <h3>WASHINGTON</h3>
-                </div>
-            </div>
+      <h1>Our Campus</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ex.
+      </p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/campus-1.jfif" alt="imagenotfound" />
         </div>
+        <div class="campus-col">
+          <img src="images/campus-2.jfif" alt="imagenotfound" />
+        </div>
+        <div class="campus-col">
+          <img src="images/campus-3.jfif" alt="imagenotfound" />
+        </div>
+      </div>
     </section>
-
 
     <!-- ----------Facility------------ -->
     <section class="facility">
-        <h1>Our Facility</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, reprehenderit?</p>
-        <div class="row">
-            <div class="facility-col">
-                <img src="images/library.png" alt="">
-                <h3>Word class Library</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni delectus voluptatum, neque magnam
-                    animi error?</p>
-            </div>
-            <div class="facility-col">
-                <img src="images/basketball.png" alt="">
-                <h3>Largest Play gound</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni delectus voluptatum, neque magnam
-                    animi error?</p>
-            </div>
-            <div class="facility-col">
-                <img src="images/cafeteria.png" alt="">
-                <h3>Testy & Healthy Food</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni delectus voluptatum, neque magnam
-                    animi error?</p>
-            </div>
+      <h1>Our Facility</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+        reprehenderit?
+      </p>
+      <div class="row">
+        <div class="facility-col">
+          <img src="images/library.png" alt="" />
+          <h3>Word class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            delectus voluptatum, neque magnam animi error?
+          </p>
         </div>
+        <div class="facility-col">
+          <img src="images/playground.jpg" alt="images/basketball.png" />
+          <h3>Largest Play gound</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            delectus voluptatum, neque magnam animi error?
+          </p>
+        </div>
+        <div class="facility-col">
+          <img src="images/cafeteria.png" alt="" />
+          <h3>Testy & Healthy Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            delectus voluptatum, neque magnam animi error?
+          </p>
+        </div>
+      </div>
     </section>
 
-
-    <!-- --------------testimonial------------- -->
-    <section class="testimonial">
-        <h1>What Our student Says</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, accusamus.</p>
-        <div class="row">
-            <div class="testimonial-col">
-                <img src="images/user1.jpg" alt="">
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ratione corrupti sunteveniet repellat dolores assumenda quis. Debitis, omnis cumque.</p>
-                    <h3>Miya</h3>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-col">
-                <img src="images/user2.jpg" alt="">
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ratione corrupti sunt eveniet repellat dolores assumenda quis. Debitis, omnis cumque.</p>
-                    <h3>Jone</h3>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+    <!-- -------------call to action------------- -->
+    <section class="cta">
+      <h1>Enroll Our Various Online Coureses Anywhere From The world</h1>
+      <a href="#" class="btn">CONTACT</a>
     </section>
 
-
-<!-- -------------call to action------------- -->
-<section class="cta"> 
-    <h1>Enroll Our Various Online Coureses Anywhere From The world</h1>
-    <a href="#" class="btn">CONTACT</a>
-</section>
-
-
-<!-- ---------Footer------- -->
-<section class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae numquam quas aliquam labore molestias voluptate, itaque illo debitis consequuntur maiores?</p>
-</section>
-
-
-</body>
-
+    <!-- ---------Footer------- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae numquam
+        quas aliquam labore molestias voluptate, itaque illo debitis
+        consequuntur maiores?
+      </p>
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>
